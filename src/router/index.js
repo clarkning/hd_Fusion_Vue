@@ -769,7 +769,7 @@ const router = new Router({
     {
       path: '/elInvoiceIntroduction',
       name: 'introductionElectronicInvoice',
-      component: () => import('@/components/sell/order/customer_service/introduction_electronic_invoice/index'),
+      component: () => require('@/components/sell/order/customer_service/introduction_electronic_invoice/index'),
       meta: {
         auth: needAuth,
         title: '什么是电子发票',

@@ -550,7 +550,7 @@ export default {
   async getWxPerson (param) {
     let agentId = window.localStorage.getItem('agentId')
     if (!agentId) {
-      agentId = 1000031
+      agentId = 1000002
     }
     let query = {
       code: param.code,

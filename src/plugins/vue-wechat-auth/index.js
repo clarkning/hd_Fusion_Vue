@@ -48,7 +48,7 @@ export default {
 
     function beforeEach (to, from, next) {
       if (!from.name && to.name === 'login' && n === 1) {
-        let agentId = querystring.parse(url.parse(window.location.href).query).agentId
+        let agentId = 1000002
         if (agentId) {
           localStorage.setItem('agentId', agentId)
         }

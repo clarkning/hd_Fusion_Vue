@@ -1,17 +1,24 @@
 let config = (function (env) {
+  // let apiSite = {
+  //   prod: 'fusion-api.shanquetech.com/api/v1',
+  //   dev1: 'fusion-api.shanquetech.com/api/v1',
+  //   dev2: 'fusion-api.shanquetech.com/api/v1',
+  //   dev3: 'fusion-api.shanquetech.com/api/v1'
+  // }
   let apiSite = {
-    prod: 'fusion.aliapi-hangzhou.zanservice.com/api/v1',
-    dev1: 'env-dev1.aliapi-hangzhou.zanservice.com/api/v1',
-    dev2: 'env-dev2.aliapi-hangzhou.zanservice.com/api/v1',
-    dev3: 'env-dev3.aliapi-hangzhou.zanservice.com/api/v1'
+    prod: '3pucdw.natappfree.cc/api/v1',
+    dev1: '3pucdw.natappfree.cc/api/v1',
+    dev2: '3pucdw.natappfree.cc/api/v1',
+    dev3: '3pucdw.natappfree.cc/api/v1'
   }
+
   let webSite = {
-    prod: 'vue.fusion.zanservice.com',
-    prerls: 'vue.fusion.prerls.zanservice.com',
-    rls: 'vue.fusion.rls.zanservice.com',
-    dev1: 'vue.fusion.dev1.zanservice.com',
-    dev2: 'vue.fusion.dev2.zanservice.com',
-    dev3: 'vue.fusion.dev3.zanservice.com'
+    prod: 'fusion-vue.shanquetech.com',
+    prerls: 'fusion-vue.shanquetech.com',
+    rls: 'fusion-vue.shanquetech.com',
+    dev1: 'fusion-vue.shanquetech.com',
+    dev2: 'fusion-vue.shanquetech.com',
+    dev3: 'fusion-vue.shanquetech.com'
   }
   let fsApiSite = {
     prod: 'api.fusion.zanservice.com/api/v1',
@@ -37,8 +44,8 @@ let config = (function (env) {
   }
 
   let wechatAppId = {
-    prod: 'wx4cdc7dc76210d4f0',
-    nonProd: 'ww57cf217249660864'
+    prod: 'wwa62922aa68750da0',
+    nonProd: 'wwa62922aa68750da0'
   }
 
   let configProd = {
