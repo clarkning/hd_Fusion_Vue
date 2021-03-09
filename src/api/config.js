@@ -1,24 +1,33 @@
 let config = (function (env) {
   // let apiSite = {
-  //   prod: 'fusion-api.shanquetech.com/api/v1',
-  //   dev1: 'fusion-api.shanquetech.com/api/v1',
-  //   dev2: 'fusion-api.shanquetech.com/api/v1',
-  //   dev3: 'fusion-api.shanquetech.com/api/v1'
+  //   prod: 'fusion-api.trustinsure.cn/api/v1',
+  //   dev1: 'fusion-api.trustinsure.cn/api/v1',
+  //   // dev1: '192.168.31.11/fusion-api/api/v1',
+  //   dev2: 'fusion-api.trustinsure.cn/api/v1',
+  //   dev3: 'fusion-api.trustinsure.cn/api/v1'
   // }
+
   let apiSite = {
-    prod: '3pucdw.natappfree.cc/api/v1',
-    dev1: '3pucdw.natappfree.cc/api/v1',
-    dev2: '3pucdw.natappfree.cc/api/v1',
-    dev3: '3pucdw.natappfree.cc/api/v1'
+    prod: 'fusion-api.trustinsure.cn/api/v1',
+    dev1: 'fusion-api.trustinsure.cn/api/v1',
+    // dev1: '192.168.31.11/fusion-api/api/v1',
+    dev2: 'fusion-api.trustinsure.cn/api/v1',
+    dev3: 'fusion-api.trustinsure.cn/api/v1'
   }
+  // let apiSite = {
+  //   prod: '192.168.31.11/fusion-api/api/v1',
+  //   dev1: '192.168.31.11/fusion-api/api/v1',
+  //   dev2: '192.168.31.11/fusion-api/api/v1',
+  //   dev3: '192.168.31.11/fusion-api/api/v1'
+  // }
 
   let webSite = {
-    prod: 'fusion-vue.shanquetech.com',
-    prerls: 'fusion-vue.shanquetech.com',
-    rls: 'fusion-vue.shanquetech.com',
-    dev1: 'fusion-vue.shanquetech.com',
-    dev2: 'fusion-vue.shanquetech.com',
-    dev3: 'fusion-vue.shanquetech.com'
+    prod: 'fusion-vue.trustinsure.cn',
+    prerls: 'fusion-vue.trustinsure.cn',
+    rls: 'fusion-vue.trustinsure.cn',
+    dev1: 'fusion-vue.trustinsure.cn',
+    dev2: 'fusion-vue.trustinsure.cn',
+    dev3: 'fusion-vue.trustinsure.cn'
   }
   let fsApiSite = {
     prod: 'api.fusion.zanservice.com/api/v1',
@@ -44,8 +53,8 @@ let config = (function (env) {
   }
 
   let wechatAppId = {
-    prod: 'wwa62922aa68750da0',
-    nonProd: 'wwa62922aa68750da0'
+    prod: 'ww0cc00c4a6f64c09b',
+    nonProd: 'ww0cc00c4a6f64c09b'
   }
 
   let configProd = {

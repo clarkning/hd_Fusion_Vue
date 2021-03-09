@@ -22,7 +22,7 @@
 
     <div class="bg">
       <h4>为何要上传身份证信息及照片？</h4>
-      <p class="color-888">众安保修代您缴纳个人所得税，证件信息是报税必备资料。</p>
+      <p class="color-888">大诚保代您缴纳个人所得税，证件信息是报税必备资料。</p>
       <div class="t-c link_color" @click="goToPagePersonInfo()">现在就去维护</div>
     </div>
 

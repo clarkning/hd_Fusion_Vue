@@ -57,6 +57,9 @@ export default {
         localStorage.removeItem('dimension2')
         localStorage.removeItem('dimension1')
       }
+
+      // let personId = 2
+      // weChatAuth.setPersonId(personId)
       let query = querystring.parse(url.parse(window.location.href).query)
       let code = query.code
       urlCodeQueryFilter(code)

@@ -11,11 +11,11 @@
       </div>
     </div>
     <div class="invoice-info">
-      <mt-cell title="公司" value="北京众安保修科技有限公司"></mt-cell>
-      <mt-cell title="纳税人识别号" value="91110105MA007LG12P"></mt-cell>
+      <mt-cell title="公司" value="北京大诚保科技有限公司"></mt-cell>
+      <mt-cell title="纳税人识别号" value="91120222MA078G000F"></mt-cell>
       <mt-cell title="开票内容" value="维修服务费 或 服务费"></mt-cell>
       <mt-cell class="mt-line-height" title="邮寄地址">
-        <span>北京市朝阳区光华路SOHO 1期2单元9层907室  洛璃（收）010-65206750</span>
+        <span>北京市朝阳区北京像素北区11号楼1325 马女士收 131 2699 8321</span>
       </mt-cell>
     </div>
     <div class="specialInvoice-link" @click="goToPageSpecialInvoice()">

@@ -23,7 +23,7 @@
       <div class="order_inf"><span class="fr" :class="{money: !payState, font_money: payState }">￥{{order.paymentDto.payAmount}}</span>延保价格
       </div>
       <div class="order_inf cg" v-if="payState">{{order.orderStatusStr}}</div>
-      <div class="tips" v-if="payState">您可以关注“众安保修”企业服务号查询延保合同</div>
+      <div class="tips" v-if="payState">您可以关注“大诚保”企业服务号查询延保合同</div>
       <div class="confirm-pay-btn" v-if="!payState">
         <mt-button type="primary" size="large" @click="goToPay()">
           <img src="../../../../../static/alipay.png" height="24" width="24" slot="icon"/>去支付

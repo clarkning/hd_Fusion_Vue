@@ -15,7 +15,7 @@ const router = new Router({
       component: resolve => require(['@/components/login'], resolve),
       meta: {
         auth: needAuth,
-        title: '众安保修'
+        title: '大诚保'
       }
     },
     {
@@ -23,7 +23,7 @@ const router = new Router({
       component: resolve => require(['@/components/login'], resolve),
       meta: {
         auth: needAuth,
-        title: '众安保修'
+        title: '大诚保'
       }
     },
     {
@@ -269,7 +269,7 @@ const router = new Router({
       component: resolve => require(['@/components/materials/banner_details'], resolve),
       meta: {
         auth: needAuth,
-        title: '众安保修'
+        title: '大诚保'
       }
     },
     {

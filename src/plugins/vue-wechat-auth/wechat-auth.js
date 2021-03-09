@@ -82,7 +82,7 @@ class WeChatAuth {
   }
 
   getPersonId () {
-    // localStorage.setItem('zanPersonId', 4425)
+    // localStorage.setItem('zanPersonId', 2)
     let personId = window.localStorage.getItem('zanPersonId')
     store.commit('setPersonId', personId)
     return store.state.person.personId
